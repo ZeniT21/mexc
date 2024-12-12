@@ -22,13 +22,13 @@ TICKERS = list(set(TICKERS))
 
 MIN_CHANGE = 1.3 # changed! 0.9- 1.4
 
-MAX_TRADE = 25 # changed! 33 - 20
+MAX_TRADE = 22 # changed! 33 - 20
 
 TIME_ON_BUY_ONE_COIN = 60
 TIME_ON_LIMIT_ORDER = 60
 SECOND_LIMIT_ORDER = 14400 # if older => set limit -LIMIT_DOWN_CHANGE
 LIMIT_DOWN_CHANGE = 0.003 # of old limit set
-MAX_SUM_ON_COIN = 75 # changed! 90 - 60
+MAX_SUM_ON_COIN = 66 # changed! 90 - 60
 
 tickers_data = {}
 tickers_balance = {}
